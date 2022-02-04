@@ -1,0 +1,16 @@
+name = "action-template"
+type = "webpack"
+workers_dev = true
+zone_id = "7f49d9e6a512871a6e36ef6373ba0135"
+account_id = "bf7a009ee5034e5743a0e77aacffbe0a"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
+
+[env.beta]
+name = "vite-template-dev"
+
+
+[env.prod]
+name = "vite-template-prod"

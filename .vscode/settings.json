@@ -1,0 +1,32 @@
+{
+  "cSpell.words": [
+    "Craco",
+    "Hiragino",
+    "Jyanme",
+    "Quan",
+    "RIVERBOX",
+    "Swei",
+    "Swiper",
+    "autoprefix",
+    "blindbox",
+    "classname",
+    "ethersproject",
+    "pqina",
+    "riverman",
+    "rivermen",
+    "rivernft"
+  ],
+  "cssrem.rootFontSize": 19.2,
+  "prettier.configPath": ".prettierrc.js",
+  "editor.codeActionsOnSave": {
+    ​"source.fixAll.eslint": true,
+    ​"source.fixAll.tslint": true,
+    ​"source.fixAll.stylelint": true
+  },
+  "eslint.options": {
+    ​"extensions": [".js", ".jsx", ".vue", ".ts", ".tsx"]
+  },
+  "blueprint.templatesPath": [
+    ".vscode/blueprint-templates",
+  ],
+}
