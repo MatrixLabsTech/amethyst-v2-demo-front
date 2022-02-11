@@ -192,5 +192,32 @@ export interface ERC721Client {
      * @memberof ERC721Client
      */
     transferFrom(from: string, to: string, tokenId: BigNumber, config?: PayableOverrides): Promise<string>;
+    
+    /**
+     * claim
+     *
+     * @param {string} receiver address
+     * @param {BigNumber} tokenId to be claimed
+     * @param {BigNumber} price of token
+     * @param {string} signature of token
+     * @return {Promise<string>} transaction hash
+     */
+    claim(
+        to: string,
+        tokenId: BigNumber,
+        price: BigNumber,
+        signature: string,
+        config?: PayableOverrides
+    ): Promise<string>;
+
+    /**
+     * signClaimMessage
+     *
+     * @param {number} mainnet chainId is 1 ,rinkeby chainId is 4
+     * @param {number} tokenId to be claimed
+     * @param {number} price of token
+     * @return {Promise<string>} signature of token
+     */
+    signClaimMessage(chainId_: number, tokenId: number, price: number, config?: PayableOverrides): Promise<string>;
 }
 ```
