@@ -10,7 +10,7 @@
   "dependencies": {
     "@ethersproject/providers": "^5.5.3",
     "@metamask/detect-provider": "^1.2.0",
-    "@white-matrix/amethyst-protocol-v2-sdk": "0.0.6",
+    "@white-matrix/amethyst-protocol-v2-sdk": "0.1.2",
     "axios": "0.24.0",
     "classnames": "2.3.1",
     "ethers": "^5.5.4",
